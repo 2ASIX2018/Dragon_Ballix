@@ -10,14 +10,9 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
 		
 		<title>DragonBallWorld</title>
-
-
     </head>
-		
-		<body>
-            
-           <embed class="musi" src="musi/musica.mp3" hidden="true">
-            
+
+    <body>
             <p class="stroke1">Drag</p><p class="stroke2">o</p><p class="stroke1">n</p><p class="stroke3">BallW</p><p class="stroke2">o</p><p class="stroke3">rld</p>
             
             <br>
