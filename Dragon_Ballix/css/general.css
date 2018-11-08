@@ -19,60 +19,6 @@
 	
 }
 
-.stroke1 {
-    font-family: Titulo;
-    src: url('fonts/Saiyan(DBZ).ttf');
-    font-size: 500%;
--webkit-text-fill-color: yellow;
--webkit-text-stroke: 2px black;
-display:inline;
-   
-}
-
-.stroke2 {
-    
-    font-family: Titulo;
-    src: url('fonts/Saiyan(DBZ).ttf');
-    font-size: 600%;
--webkit-text-fill-color: orange;
--webkit-text-stroke: 2px black;
-    display: inline;
- 
-  
-}
-.stroke3 {
-    font-family: Titulo;
-    src: url('fonts/Saiyan(DBZ).ttf');
-    font-size: 500%;
--webkit-text-fill-color: red;
--webkit-text-stroke: 2px black;
-display:inline;
-   
-}
-
-.stroke4 {
-    font-family: Titulo;
-    src: url('fonts/Saiyan(DBZ).ttf');
-    font-size: 250%;
--webkit-text-fill-color: yellow;
--webkit-text-stroke: 2px black;
-display:inline;
-
-}
-
-.stroke5 {
-    
-    font-family: Titulo;
-    src: url('fonts/Saiyan(DBZ).ttf');
-    font-size: 250%;
--webkit-text-fill-color: orange;
--webkit-text-stroke: 2px black;
-    display: inline;
- 
-  
-}
-
-
 body{
 	
 	font-family: Titulo, Cuerpo, Helvetica, Arial, Sans-serif;
@@ -81,7 +27,7 @@ body{
     
     background-repeat: no-repeat;
     
-    background-size:auto;
+    background-size: cover;
     
         margin: 2;
         padding: 2;
@@ -194,6 +140,19 @@ a:hover, a:active {
 
 }
 
+.regist {
+
+    list-style-type: none;
+
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    top: 0px;
+}
+
+
 .li-a{
     
     display: inline;
@@ -211,4 +170,65 @@ a:hover, a:active {
 
     text-emphasis-color: aqua;
     
+}
+
+
+.stroke1 {
+    font-family: Titulo;
+    src: url('fonts/Saiyan(DBZ).ttf');
+    font-size: 500%;
+-webkit-text-fill-color: yellow;
+-webkit-text-stroke: 2px black;
+display:inline;
+   
+}
+
+.stroke2 {
+    
+    font-family: Titulo;
+    src: url('fonts/Saiyan(DBZ).ttf');
+    font-size: 600%;
+-webkit-text-fill-color: orange;
+-webkit-text-stroke: 2px black;
+    display: inline;
+ 
+  
+}
+.stroke3 {
+    font-family: Titulo;
+    src: url('fonts/Saiyan(DBZ).ttf');
+    font-size: 500%;
+-webkit-text-fill-color: red;
+-webkit-text-stroke: 2px black;
+display:inline;
+   
+}
+
+.stroke4 {
+    font-family: Titulo;
+    src: url('fonts/Saiyan(DBZ).ttf');
+    font-size: 250%;
+-webkit-text-fill-color: yellow;
+-webkit-text-stroke: 2px black;
+display:inline;
+
+}
+
+.stroke5 {
+    
+    font-family: Titulo;
+    src: url('fonts/Saiyan(DBZ).ttf');
+    font-size: 250%;
+-webkit-text-fill-color: orange;
+-webkit-text-stroke: 2px black;
+    display: inline;
+ 
+  
+}
+
+
+.musi{
+    
+    display: none;
+  
 }

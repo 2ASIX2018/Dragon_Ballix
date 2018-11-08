@@ -14,25 +14,12 @@
             
              <h2>Enlaces de la empresa</h2>
             
-             <nav class="main-nav">
-                
-            <ul class="main-nav">
-                
-                 <li class="li-a"><a href="index.html">Página principal</a></li>
-                
-                <li class="li-a"><a class="active" href="enlaces.html">Accede a los enlaces de información que necesitas</a></li>
-                
-                <li class="li-a"><a href="contactos.html">Contacta con nosotros</a></li>
-                
-                  <li class="li-a"><a href="productos.html">Accede a los productos</a></li>
-                
-                <li class="li-a"><a href="multimedia.html">Accede a ejemplos de multimedia</a></li>
-                
-                <li class="li-a"><a href="horario.html">Visita nuestro horario</a></li>
-                
-             </ul>   
-            
-            </nav>
+             <?php
+
+            require_once("menu.php");
+
+            ?>
+
             
                 <h2>Enlaces externos</h2>
                 

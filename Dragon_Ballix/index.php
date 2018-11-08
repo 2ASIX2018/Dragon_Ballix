@@ -2,44 +2,35 @@
 <html>
 	<head>
 		<meta content="Jorge Sendra Gómez" name="author">
-		<meta content="El Rincón del Kaio-Sama" name="description">
+		<meta content="DragonBallWorld" name="description">
 		<meta content="Dragon ball" name="keywords">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" href="css/general.css" type="text/css" media="all">
 		
-       
+    <link rel="shortcut icon" href="img/favicon.ico" />
 		
 		<title>DragonBallWorld</title>
+
+
     </head>
 		
 		<body>
             
-           <embed src="musi/musica.mp3" hidden="true" loop>
+           <embed class="musi" src="musi/musica.mp3" hidden="true">
             
             <p class="stroke1">Drag</p><p class="stroke2">o</p><p class="stroke1">n</p><p class="stroke3">BallW</p><p class="stroke2">o</p><p class="stroke3">rld</p>
             
             <br>
             <br>
-            
-    
+          
              <nav class="main-nav">
                 
-            <ul class="main-nav">
-                
-                <li class="li-a"><a class="active" href="index.html">Página principal</a></li>
-                
-                <li class="li-a"><a href="enlaces.html">Series y películas</a></li>
-                
-                <li class="li-a"><a href="enlaces.html">Personajes</a></li>
-                
-                <li class="li-a"><a href="productos.html">Juegos</a></li>
-                
-                <li class="li-a"><a href="contactos.html">Accede al foro</a></li>
-                
-             </ul>   
-            
-            </nav>
-            
+            <?php
+
+            require_once("menu.php");
+
+            ?>
+
             <br>
             
             <p class="stroke4">Intr<p class="stroke5">o</p><p class="stroke4">ducci</p><p class="stroke5">o</p><p class="stroke4">n</p>
