@@ -35,9 +35,9 @@
             <footer>
 		      <p>DragonBallWorld, página creada por Sergi Chismol Marí y Jorge Sendra Gómez.</p>
             </footer>
+                 
 		</body>
-		
-		
+
 </html>
 		
 		

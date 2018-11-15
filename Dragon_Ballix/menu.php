@@ -20,7 +20,7 @@
 
               <ul class="regist">
               
-              <li class="li-a"><a href="sesion.php">Inicia sesión</a></li>
+              <li class="li-a"><a href="loginForm.php">Inicia sesión</a></li>
 
               <li class="li-a"><a href="registro.php">Registrate</a></li>
 

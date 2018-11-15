@@ -12,7 +12,7 @@
 
 <body>
 
-<form action="mailto:emaildelaempresaquehaceelformulario@email.com" method="post" enctype="text/plain">
+<form id="Registro" action="" >
 
 <p class="regis">Nombre</p><input type="text" name="nombre" size="50" maxlength="50"><br><br>
 <p class="regis">Apellidos</p> <input type="text" name="apellidos" size="50" maxlength="50">
