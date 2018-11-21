@@ -27,6 +27,8 @@
             ?>
 
             <br>
+                 
+            </nav>
             
             <p class="stroke4">Intr<p class="stroke5">o</p><p class="stroke4">ducci</p><p class="stroke5">o</p><p class="stroke4">n</p>
             
@@ -36,7 +38,9 @@
 		      <p>DragonBallWorld, página creada por Sergi Chismol Marí y Jorge Sendra Gómez.</p>
             </footer>
                  
-		</body>
+        
+        
+    </body>
 
 </html>
 		
