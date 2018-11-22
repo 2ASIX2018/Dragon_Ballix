@@ -222,17 +222,20 @@ display:inline;
 -webkit-text-fill-color: orange;
 -webkit-text-stroke: 2px black;
     display: inline;
- 
-  
 }
 
-.imag{
+#izqui {
     
-    background-color: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    height: 225px;
-    border: 100;
     
+    float: left;
+    
+}
+
+#drcha {
+    
+    
+    float: right;
+    
+    width: 1650px;
+
 }

@@ -26,15 +26,26 @@
             ?>
             
             <br>
-            <br>  
+            <br> 
+            <br>
+            <br>
             
-            <a class="imag"href="index.php"><img class="imag" src="css/fondo/seri.png" height="225px" weight="225px"/></a>
             
-            <a class="imag"href="index.php"><img class="imag" src="css/fondo/peli.png" height="225px" weight="225px"/></a>
+            <div id="izqui">
+            
+            <a href="index.php"><img src="css/fondo/seri.png" height="225px" weight="225px"/></a>
+            
+    </div>
+    
+            <div id="drcha">
+            
+            <a href="index.php"><img src="css/fondo/peli.png" height="225px" weight="225px"/></a>
 
-            <footer>
-		      <p>Dragonballworld </p>
-            </footer>  
+                </div>
+            
+            <br>
+            
+            
             
     </body>
 </html
