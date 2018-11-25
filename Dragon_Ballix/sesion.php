@@ -7,6 +7,7 @@ $usuaris=["admin", "user"];
 
 $user=$_REQUEST["inputUser"];
 $pass=$_REQUEST["pass"];
+$remember=$_REQUEST["rememberMe"];
 
 if ($pass=="1234" && in_array($user, $usuaris)) {
     
@@ -48,7 +49,6 @@ else{
       <a href="loginForm.php">Vuelve atrás</a>
       
       </div>
-    
   </body>
 </html>
 

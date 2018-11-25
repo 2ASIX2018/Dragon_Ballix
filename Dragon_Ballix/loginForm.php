@@ -21,6 +21,9 @@
              <h2>Contraseña</h2>
 <br>
             <input class="inp" type="password" required="required" name="pass"><br>
+              
+              <input type="checkbox" name="rememberMe" id="rememberMe" value="remember">Recuerda en este ordenador.
+              <br>
 
             <a href="registro.php" class="he">¿No estás registrado?</a>
     
