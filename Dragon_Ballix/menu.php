@@ -2,15 +2,15 @@
                 
             <ul class="main-nav">
                 
-                <li class="li-a"><a class="active" href="index.php">Página principal</a></li>
+                <li class="li-a"><a class="ala" href="index.php">Página principal</a></li>
                 
-                <li class="li-a"><a href="enlaces.php">Series y películas</a></li>
+                <li class="li-a"><a class="ala" href="seriespelis.php">Series y películas</a></li>
                 
-                <li class="li-a"><a href="enlaces.php">Personajes</a></li>
+                <li class="li-a"><a class="ala" href="enlaces.php">Personajes</a></li>
                 
-                <li class="li-a"><a href="productos.php">Juegos</a></li>
+                <li class="li-a"><a class="ala"  href="juegos.php">Juegos</a></li>
                 
-                <li class="li-a"><a href="contactos.php">Accede al foro</a></li>
+                <li class="li-a"><a class="ala"  href="contactos.php">Accede al foro</a></li>
                 
              </ul> 
             
@@ -20,9 +20,9 @@
 
               <ul class="regist">
               
-              <li class="li-a"><a href="sesion.php">Inicia sesión</a></li>
+              <li class="li-a"><a class="ala" href="loginForm.php">Inicia sesión</a></li>
 
-              <li class="li-a"><a href="registro.php">Registrate</a></li>
+              <li class="li-a"><a class="ala" href="registro.php">Registrate</a></li>
 
               
               

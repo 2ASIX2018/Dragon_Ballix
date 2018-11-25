@@ -9,32 +9,25 @@
 		
        
 		
-		<title>NF Productos</title>
+		<title>Series y películas</title>
 		</head>
 		
 		<body>
          
             
-            <h1>Enlaces de la empresa</h1>
-            
-            <nav class="main-nav">
+             <br>
+            <br>
+          
+             <nav class="main-nav">
                 
-            <ul class="main-nav">
-                
-                 <li class="li-a"><a href="index.html">Página principal</a></li>
-                
-                <li class="li-a"><a href="enlaces.html">Accede a los enlaces de información que necesitas</a></li>
-                
-                <li class="li-a"><a href="contactos.html">Contacta con nosotros</a></li>
-                
-                  <li class="li-a"><a class="active" href="productos.html">Accede a los productos</a></li>
-                
-                <li class="li-a"><a href="multimedia.html">Accede a ejemplos de multimedia</a></li>
-                
-                <li class="li-a"><a href="horario.html">Visita nuestro horario</a></li>
-                
-             </ul>   
-            
+            <?php
+
+            require_once("menu.php");
+
+            ?>
+
+            <br>
+                 
             </nav>
             
             <h1>Productos</h1>
