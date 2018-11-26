@@ -16,3 +16,4 @@ L'aplicació farà ús principalment de dues taules a la base de dades, per tal 
 #### 2.1. Descripció de la base de dades
 
 L'esquema de la base de dades és la següent:
+
