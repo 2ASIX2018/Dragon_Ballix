@@ -84,6 +84,15 @@ CREATE TABLE IF NOT EXISTS `Base_projecte`.`Usuaris` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = latin1;
 
+INSERT INTO Usuaris(NOM_usuari,Nom,Apellidos,Contraseña,Correu,rol) VALUES
+('admin','Jorge','Sendra','1234','hola@gmail.com','admin'),
+('admindos','Sergi','Chismol','1234','hola@gmail.com','admindos'),
+('user','usuari','resu','1234','user@gmail.com','usuari');
+
+select * from Usuaris;
+
+select rol from Usuaris where NOM_usuari = 'admin' AND Contraseña = '1234';
+
 
 -- -----------------------------------------------------
 -- Table `Base_projecte`.`peliculas`
@@ -117,3 +126,5 @@ COLLATE = latin1_bin;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
