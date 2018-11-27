@@ -17,3 +17,5 @@ L'aplicació farà ús principalment de dues taules a la base de dades, per tal 
 
 L'esquema de la base de dades és la següent:
 
+![Database](db.PNG)
+
