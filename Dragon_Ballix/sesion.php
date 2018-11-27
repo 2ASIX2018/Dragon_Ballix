@@ -3,34 +3,41 @@
 
 session_start();
 
-$usuaris=["admin", "user"];
+require_once("base/users.php");
+
+$usu=new User();
 
 $user=$_REQUEST["inputUser"];
 $pass=$_REQUEST["pass"];
 $remember=$_REQUEST["rememberMe"];
 
-if ($pass=="1234" && in_array($user, $usuaris)) {
+$role=$usu->validaUsuari($user, $pass);
+
+if ($role){
     
     $_SESSION['username']=$user;
     
-    if ($user=="admin")
-
-        $_SESSION['role'] = "admin";
+    $_SESSION['role']=$role;
     
-    else if ($user=="user")
+    
+    if ($recordar=="Recuerdame"){
         
-        $_SESSION['role'] = "user";
+        
+        setcookie('User', $_SESSION['username'], time() + 365 * 24 * 60 * 60);
+        setcookie('Role', $_SESSION['role'], time() + 365 * 24 * 60 * 60);
+        
+    }
+    
     
     header("Location: index.php");
     
     exit();
-
-}
-
-else{
+    
+    
+} else{
     
 ?>    
-<!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="utf-8">
