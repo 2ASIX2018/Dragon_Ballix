@@ -77,7 +77,7 @@ CREATE TABLE IF NOT EXISTS `Base_projecte`.`Usuaris` (
   `NOM_usuari` VARCHAR(10) NOT NULL,
   `Nom` VARCHAR(45) NOT NULL,
   `Apellidos` VARCHAR(45) NOT NULL,
-  `Contraseña` CHAR(16) NOT NULL,
+  `Contrasenya` CHAR(16) NOT NULL,
   `Correu` CHAR(32) NOT NULL,
   `rol` VARCHAR(45) NULL DEFAULT NULL,
   PRIMARY KEY (`NOM_usuari`))
@@ -114,14 +114,23 @@ COLLATE = latin1_bin;
 -- Table `Base_projecte`.`series`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Base_projecte`.`series` (
-  `idseries` INT(11) NOT NULL,
+  `idseries` CHAR(11) NOT NULL,
   `nom` VARCHAR(45) CHARACTER SET 'latin1' COLLATE 'latin1_bin' NOT NULL,
-  `descripcio` VARCHAR(45) CHARACTER SET 'latin1' COLLATE 'latin1_bin' NULL DEFAULT NULL,
+  `descripcio` VARCHAR(70) CHARACTER SET 'latin1' COLLATE 'latin1_bin' NULL DEFAULT NULL,
   PRIMARY KEY (`idseries`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = latin1
 COLLATE = latin1_bin;
 
+INSERT INTO series(idseries,nom,descripcio) VALUES
+('serie1','Dragon ball','La aventura de Goku desde su niñez'),
+('serie2','Dragon ball z','Son Goku experimenta las transformaciones del super guerrero'),
+('serie3','Dragon ball super','Son Goku llega a rivalizar con los dioses');
+
+select * from series;
+
+-- select idseries from series where serie2 =  AND  = '1234';
+select nom, descripcio from series where idseries = 'serie1';
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
