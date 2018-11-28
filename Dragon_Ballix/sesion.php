@@ -5,26 +5,27 @@ session_start();
 
 require_once("base/users.php");
 
-$usu=new User();
+$userobject=new User();
 
-$user=$_REQUEST["inputUser"];
+$username=$_REQUEST["inputUser"];
 $pass=$_REQUEST["pass"];
-$remember=$_REQUEST["rememberMe"];
+//$remember=$_REQUEST["rememberMe"];
 
-$role=$usu->validaUsuari($user, $pass);
 
+$role=$userobject->validaUser($username, $pass);
+echo $role;
 if ($role){
     
-    $_SESSION['username']=$user;
+    $_SESSION['username']=$username;
     
     $_SESSION['role']=$role;
     
     
-    if ($recordar=="Recuerdame"){
+    if ($remember=="remember"){
         
         
-        setcookie('User', $_SESSION['username'], time() + 365 * 24 * 60 * 60);
-        setcookie('Role', $_SESSION['role'], time() + 365 * 24 * 60 * 60);
+        setcookie('DGUser', $_SESSION['username'], time() + 365 * 24 * 60 * 60);
+        setcookie('DGRole', $_SESSION['role'], time() + 365 * 24 * 60 * 60);
         
     }
     

@@ -18,18 +18,18 @@
             <br>
             <br>
           
-             <nav class="main-nav">
+            <nav class="main-nav">
                 
             <?php
 
             require_once("menu.php");
 
             ?>
-
+        </nav>
             <br>
                  <br>
                  
-            </nav>
+            
             
             <p class="stroke4">Intr<p class="stroke5">o</p><p class="stroke4">ducci</p><p class="stroke5">o</p><p class="stroke4">n</p>
             

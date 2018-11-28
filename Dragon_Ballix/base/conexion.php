@@ -1,9 +1,9 @@
 <?php 
-    $connexio=array(
-        "servidor"=>"192.168.1.102",
+    $conexio=array(
+        "servidor"=>"127.0.0.1",
         #"port"=>"3306",
         #"host"=>"localhost",
-        "bd"=>"base", 
-        "usuario"=>"root", 
-        "contrasenya"=>"1234");
+        "bd"=>"Base_projecte", 
+        "usuario"=>"root",
+        "contrasenya"=>"");
 ?>

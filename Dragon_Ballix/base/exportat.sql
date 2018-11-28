@@ -87,7 +87,7 @@ DEFAULT CHARACTER SET = latin1;
 INSERT INTO Usuaris(NOM_usuari,Nom,Apellidos,Contraseña,Correu,rol) VALUES
 ('admin','Jorge','Sendra','1234','hola@gmail.com','admin'),
 ('admindos','Sergi','Chismol','1234','hola@gmail.com','admindos'),
-('user','usuari','resu','1234','user@gmail.com','usuari');
+('user','usuari','resu','1234','user@gmail.com','user');
 
 select * from Usuaris;
 

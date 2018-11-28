@@ -14,11 +14,11 @@ if (isset($_SESSION['username'])) {
     else $role="";
 
     
-} else if (isset($_COOKIE['User'])){
+} else if (isset($_COOKIE['DGUser'])){
     
-    $_SESSION['username'] = $_COOKIE['User'];
+    $_SESSION['username'] = $_COOKIE['DGUser'];
     
-    if (isset($_COOKIE['User'])) $_SESSION['role'] = $_COOKIE['User'];
+    if (isset($_COOKIE['DGUser'])) $_SESSION['role'] = $_COOKIE['DGUser'];
     
     if ($_SESSION['role']=="admin") $role="(admin)"; else $role="";
     
@@ -42,7 +42,7 @@ $nomuser=$user#.$role;
                 
                 <?php
     
-                    if (isset($_SESSION['role']) && $_SESSION['role']=="admin" ) {
+                    if ($role=="(admin)" ) {
                         
                         ?>
  
@@ -78,7 +78,7 @@ $nomuser=$user#.$role;
                   
                   <?php
     
-                    if (isset($_SESSION['role']) && $_SESSION['role']=="admin" ) {
+                    if ($role=="(admin)") {
                         
                         ?>
             

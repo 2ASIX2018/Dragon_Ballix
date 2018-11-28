@@ -7,17 +7,17 @@ if(!isset($_SESSION["username"])) header("Location: index.php");
 
     $_SESSION = array();
 
-if(isset($_COOKIE["User"])){
+if(isset($_COOKIE["DGUser"])){
     
     
-    setcookie("User", null, time()-3600);
+    setcookie("DGUser", null, time()-3600);
     
 }
 
-if(isset($_COOKIE["Role"])){
+if(isset($_COOKIE["DGRole"])){
     
     
-    setcookie("Role", null, time()-3600);
+    setcookie("DGRole", null, time()-3600);
     
 }
 
