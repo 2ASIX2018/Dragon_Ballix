@@ -9,7 +9,7 @@ $userobject=new User();
 
 $username=$_REQUEST["inputUser"];
 $pass=$_REQUEST["pass"];
-//$remember=$_REQUEST["rememberMe"];
+$remember=$_REQUEST["remember"];
 
 
 $role=$userobject->validaUser($username, $pass);

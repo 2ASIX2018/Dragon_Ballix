@@ -42,17 +42,17 @@ $nomuser=$user#.$role;
                 
                 <?php
     
-                    if ($role=="(admin)" ) {
+                    if (isset($_SESSION['role']) && ($_SESSION['role']=="admin" || $_SESSION['role']=="user" )) {
                         
                         ?>
  
                 <li class="li-a"><a class="ala" href="seriespelis.php">Series y películas</a></li>
                 
-                <li class="li-a"><a class="ala" href="enlaces.php">Personajes</a></li>
+                <li class="li-a"><a class="ala" href="index.php">Personajes</a></li>
                 
-                <li class="li-a"><a class="ala"  href="juegos.php">Juegos</a></li>
+                <li class="li-a"><a class="ala"  href="index.php">Juegos</a></li>
                 
-                <li class="li-a"><a class="ala"  href="contactos.php">Accede al foro</a></li>
+                <li class="li-a"><a class="ala"  href="index.php">Accede al foro</a></li>
                 
              </ul> 
     

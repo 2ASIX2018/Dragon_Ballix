@@ -33,7 +33,7 @@
             
             <div id="izqui">
             
-            <a href="index.php"><img src="css/fondo/seri.png" height="225px" weight="225px"/></a>
+            <a href="mostraseries.php"><img src="css/fondo/seri.png" height="225px" weight="225px"/></a>
             
     </div>
     
@@ -42,6 +42,12 @@
             <a href="index.php"><img src="css/fondo/peli.png" height="225px" weight="225px"/></a>
 
                 </div>
+            
+            
+            
+            
+            
+            
             
             <br>
             
