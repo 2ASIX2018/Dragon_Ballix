@@ -5,7 +5,7 @@
   * Desenvoupar una pàgina web sobre el món de Dragon Ball.
 * **Descripció**: El projecte que plantegem, DragonBallWorld és una pàgina web en la que es podran visualitzar les pelicules basades en aquest anime, series una breu biografía sobre l'autor Akira Toriyama 
 
-![Autor](img/Akira.jpg)
+![Autor](Dragon_Ballix/Dragon_Ballix/img/Akira.jpg)
 
 * **Desenvolupador**: @Kenny-asix i sergiasix
 
