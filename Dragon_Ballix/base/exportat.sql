@@ -33,8 +33,7 @@ CREATE TABLE IF NOT EXISTS `Base_projecte`.`Foros` (
   `Comentario` VARCHAR(100) CHARACTER SET 'latin1' COLLATE 'latin1_bin' NULL DEFAULT NULL,
   PRIMARY KEY (`id_foro`))
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = latin1
-COLLATE = latin1_bin;
+DEFAULT CHARSET=utf8;
 
 
 -- -----------------------------------------------------
@@ -53,9 +52,7 @@ CREATE TABLE IF NOT EXISTS `Base_projecte`.`Juegos` (
   `Article_Personajes_idPersonajes` INT(11) NOT NULL,
   PRIMARY KEY (`idJuegos`, `Article_idArticle`, `Article_Series_y_peliculas_idSeries_peliculas`, `Article_Personajes_idPersonajes`))
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = latin1
-COLLATE = latin1_bin;
-
+DEFAULT CHARSET=utf8;
 
 -- -----------------------------------------------------
 -- Table `Base_projecte`.`Personajes`
@@ -66,9 +63,7 @@ CREATE TABLE IF NOT EXISTS `Base_projecte`.`Personajes` (
   `Descripcion` VARCHAR(45) CHARACTER SET 'latin1' COLLATE 'latin1_bin' NOT NULL,
   PRIMARY KEY (`idPersonajes`))
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = latin1
-COLLATE = latin1_bin;
-
+DEFAULT CHARSET=utf8;
 
 -- -----------------------------------------------------
 -- Table `Base_projecte`.`Usuaris`
@@ -82,8 +77,7 @@ CREATE TABLE IF NOT EXISTS `Base_projecte`.`Usuaris` (
   `rol` VARCHAR(45) NULL DEFAULT NULL,
   PRIMARY KEY (`NOM_usuari`))
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = latin1;
-
+DEFAULT CHARSET=utf8;
 INSERT INTO Usuaris(NOM_usuari,Nom,Apellidos,Contrasenya,Correu,rol) VALUES
 ('admin','Jorge','Sendra','1234','hola@gmail.com','admin'),
 ('admindos','Sergi','Chismol','1234','hola@gmail.com','admindos'),
@@ -106,9 +100,7 @@ CREATE TABLE IF NOT EXISTS `Base_projecte`.`peliculas` (
   `Article_Personajes_idPersonajes` INT(11) NOT NULL,
   PRIMARY KEY (`idpeliculas`))
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = latin1
-COLLATE = latin1_bin;
-
+DEFAULT CHARSET=utf8;
 
 -- -----------------------------------------------------
 -- Table `Base_projecte`.`series`
@@ -119,18 +111,31 @@ CREATE TABLE IF NOT EXISTS `Base_projecte`.`series` (
   `descripcio` VARCHAR(70) CHARACTER SET 'latin1' COLLATE 'latin1_bin' NULL DEFAULT NULL,
   PRIMARY KEY (`idseries`))
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = latin1
-COLLATE = latin1_bin;
-
+DEFAULT CHARSET=utf8;
 INSERT INTO series(idseries,nom,descripcio) VALUES
 ('serie1','Dragon ball','La aventura de Goku desde su niñez'),
 ('serie2','Dragon ball z','Son Goku experimenta las transformaciones del super guerrero'),
-('serie3','Dragon ball super','Son Goku llega a rivalizar con los dioses');
+('serie3','Dragon ball super','Son Goku llega a rivalizar con los dioses'),
+('serie4','Dragon ball GT','');
 
 select * from series;
 
 -- select idseries from series where serie2 =  AND  = '1234';
 select nom, descripcio from series where idseries = 'serie1';
+
+select nom, descripcio from series order by idseries desc ;
+
+CREATE TABLE IF NOT EXISTS `imagenphp` (
+`id` smallint(6) NOT NULL,
+`ancho` smallint(6) NOT NULL,
+`altura` smallint(6) NOT NULL,
+`tipo` char(15) NOT NULL,
+`imagen` mediumblob NOT NULL,
+PRIMARY KEY (`id`)
+) 
+ENGINE = InnoDB
+DEFAULT CHARSET=utf8;
+
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
