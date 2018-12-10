@@ -1,4 +1,32 @@
- 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="Jorge Sendra Gómez" name="author">
+		<meta content="DragonBallWorld" name="description">
+		<meta content="Dragon ball" name="keywords">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="css/general.css" type="text/css" media="all">
+		
+    <link rel="shortcut icon" href="img/favicon.ico" />
+		
+		<title>DragonBallWorld</title>
+    </head>
+
+    <body>
+            <p class="stroke1">Series</p>
+            
+            <br>
+            <br>
+          
+        <nav class="main-nav">
+                
+          <li class="li-a"><a class="ala" href="seriespelis.php">Retrocede</a></li>
+      
+        </nav>
+            <br>
+            <br>
+        
+        
 <?php
 require_once("base/series.php");
     $gestorSeries=new Serie();
@@ -21,3 +49,7 @@ require_once("base/series.php");
         <?php } ?>
         
       </div>
+        
+    </body>
+    
+</html>
