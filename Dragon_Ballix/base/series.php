@@ -6,12 +6,12 @@ class Serie{
             require_once "conexion.php";
             
 
-            $cadenaConexio="mysql:host=".$conexio["servidor"].";dbname=".$conexio['bd'];
+            $cadenaConexio="mysql:host=".$conexio["servidor"].";charset=utf8;dbname=".$conexio['bd'];
             $dbCon = new PDO($cadenaConexio, $conexio["usuario"], $conexio["contrasenya"]); 
             $dbCon->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);    
             
             
-            $consulta = $dbCon->prepare('SELECT idseries, nom, descripcio FROM series ORDER BY idseries DESC');
+            $consulta = $dbCon->prepare('SELECT idseries, nom, descripcio FROM series ORDER BY idseries ASC');
             
 
             $consulta->execute();

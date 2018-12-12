@@ -9,18 +9,18 @@ if (isset($_SESSION['username'])) {
     
     $user=$SESSION['username'];
     
-    if (isset($_SESSION['role']) && $_SESSION['role']=="admin") $role="(admin)";
+    if (isset($_SESSION['role']) && $_SESSION['role']=="admin") $role="admin";
     
-    else $role="";
+    else $role="User";
 
     
 } else if (isset($_COOKIE['DGUser'])){
     
     $_SESSION['username'] = $_COOKIE['DGUser'];
     
-    if (isset($_COOKIE['DGUser'])) $_SESSION['role'] = $_COOKIE['DGUser'];
+    if (isset($_COOKIE['DGRole'])) $_SESSION['role'] = $_COOKIE['DGRole'];
     
-    if ($_SESSION['role']=="admin") $role="(admin)"; else $role="";
+     if ($_SESSION['DGRole']=="user") $role="user"; else $role="Anonimo";
     
     $user=$_SESSION['username'];
   
@@ -29,9 +29,12 @@ if (isset($_SESSION['username'])) {
 
 
 
-$nomuser=$user#.$role;
+$nomuser=$user.$role;
 
 ?>
+<!DOCTYPE html>
+
+<html>
 
 <nav class="main-nav">
                 
@@ -54,11 +57,29 @@ $nomuser=$user#.$role;
                 
                 <li class="li-a"><a class="ala"  href="index.php">Accede al foro</a></li>
                 
+                
              </ul> 
+     
+    <ul class="main-nav">
+    
+        <?php
+    
+                    if ($role=="admin") {
+                        
+                        ?>
+            
+             <li class="li-a"><a class="ala" href="administracion.php">Administracion</a></li>
+                  
+              </ul>
+                
+                <?php } ?>
+ 
     
             <?php } ?>
             
             </nav>
+
+<br>
 
             <nav class="regist">
 
@@ -82,18 +103,15 @@ $nomuser=$user#.$role;
                         
                         ?>
             
-            <li class="li-a"><a class="ala" href="administracion.php">Administracion</a></li>
+            
                   
               </ul>
                 
                 <?php } ?>
                 
-                <?php if($user!="Anonimo"){ ?>
-                
-                <li class="li-a"><a class="ala" href="#"> <?php echo($nomuser) ?></a> </li>
-                
-                
-             <?php   } ?>
-                
-
+                <li class="li-a"><a class="ala"><?php echo ($nomuser);?></a></li>
+       
+  
             </nav>
+    
+</html>

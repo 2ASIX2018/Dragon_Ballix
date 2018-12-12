@@ -4,10 +4,10 @@
 		<meta content="Jorge Sendra Gómez" name="author">
 		<meta content="DragonBallWorld" name="description">
 		<meta content="Dragon ball" name="keywords">
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/general.css" type="text/css" media="all">
 		
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" href="img/favicon.ico"/>
 		
 		<title>DragonBallWorld</title>
     </head>
