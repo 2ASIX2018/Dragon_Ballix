@@ -44,9 +44,16 @@
         <img src="img/Akira.jpg" height="500px" weight="500px"/>
         
         
+        <p>Akira Toriyama es un dibujante de manga y diseñador artístico. Es conocido mundialmente, en el mundo del anime, por sus obras Dr. Slump y Dragon Ball, y, en el mundo de los videojuegos, por el diseño de personajes de las franquicias Dragon Quest, Chrono Trigger y Blue Dragon. 
+        </p>
+        <p>
+        Entró en 1973 en la Escuela Superior Industrial, inmediatamente después fue contratado por una empresa de publicidad en Nagoya, trabajó allí durante tres años, pero la falta de interés y la mala relación con sus jefes le condujo a la decisión de retirarse y a dedicarse al manga. Su vida de mangaka empezó con una publicación en Shonen Jump de Shūeisha. Más tarde crearía muchas otras historias para esa revista y, posteriormente recogidas en tomos. Toriyama se hizo inmensamente popular en Japón y en el extranjero gracias a su obra Dragon Ball, la cual ha sido vista por más de tres generaciones a escala mundial, y es Gokū y sus amigos, no sabía que tomarían gran fama afirma Akira Toriyama.
+
+        En Japón, sin embargo, continúa siendo una figura pública y aún vive en Aichi con su esposa e hijos, donde su fama le ha causado algunos problemas. Por ejemplo, cada vez que hay rumores de que hará alguna aparición en Tokio, la oficina de gobernación se preocupa porque, en ocasiones, multitudes de fans se aglomeran cerca de su casa para observarlo salir e incluso lo acompañan en caravana hasta el aeropuerto; este fenómeno dice mucho sobre la popularidad de Toriyama.
+
+        A pesar de su fama, en general, a Toriyama no le gusta exponerse en los medios de comunicación colectivos y son muy raras las ocasiones en las que algún periodista ha logrado entrevistarle o tomarle una fotografía para un diario extranjero. 
         
-        
-        
+        </p>
         
         
         
