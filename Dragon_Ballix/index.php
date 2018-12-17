@@ -41,7 +41,7 @@
         
         <br>
         
-        <img src="img/Akira.jpg" height="500px" weight="500px"/>
+        <img src="img/Akira.jpg" height="250px" weight="250px"/>
         
         
         <p>Akira Toriyama es un dibujante de manga y diseñador artístico. Es conocido mundialmente, en el mundo del anime, por sus obras Dr. Slump y Dragon Ball, y, en el mundo de los videojuegos, por el diseño de personajes de las franquicias Dragon Quest, Chrono Trigger y Blue Dragon. 
@@ -63,9 +63,15 @@
         
         <br>
         <br>
+        
+        <p class="stroke1">Bandai</p>
+        <br>
+        
+        <img src="img/bandai.png" height="250px" weight="250px"/>
+        
         <p>
         Bandai es una empresa japonesa dedicada a la creación de juguetes y figuras de acción, en muchos de los casos posee los derechos exclusivos para la promoción de mercadería basada de series animadas; es uno de los principales auspiciantes que han ayudado a poner en marcha diferentes series de anime
-        
+
         </p>
         <br>
         <br>

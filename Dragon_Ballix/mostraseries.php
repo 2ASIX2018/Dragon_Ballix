@@ -43,11 +43,19 @@ require_once("base/series.php");
            <div>
               <h2 > <?php echo($series[$i]["nom"]); ?></h2>
               <p ><?php echo ($series[$i]["descripcio"]); ?></p>
+               
+               
             </div>
           
 
         <?php } ?>
-        
+    
+    <br>
+    <br>
+    
+    <img src="img/db.jpg" height="250px" weight="250px"/>
+    <img src="img/dbz.gif" height="250px" weight="250px"/>
+    <img src="img/dbs.jpg" height="250px" weight="250px"/>
       </div>
         
     </body>

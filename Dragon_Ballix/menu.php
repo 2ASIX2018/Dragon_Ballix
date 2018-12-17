@@ -5,11 +5,12 @@ session_start();
 $user="Anonimo";
 $role="";
 
+
 if (isset($_SESSION['username'])) {
     
-    $user=$SESSION['username'];
+    $user=$_SESSION['username'];
     
-    if (isset($_SESSION['role']) && $_SESSION['role']=="admin") $role="admin";
+    if (isset($_SESSION['role']) && $_SESSION['role']=="admin") $role="Admin";
     
     else $role="User";
 
@@ -23,13 +24,14 @@ if (isset($_SESSION['username'])) {
      if ($_SESSION['DGRole']=="user") $role="user"; else $role="Anonimo";
     
     $user=$_SESSION['username'];
-  
     
 }
 
 
 
-$nomuser=$user.$role;
+$nomuser=$role;
+
+$nomuser2=$user;
 
 ?>
 <!DOCTYPE html>
@@ -87,7 +89,9 @@ $nomuser=$user.$role;
                   
             <?php if($user=="Anonimo"){ ?>
               
-              <li class="li-a"><a class="ala" href="loginForm.php">Inicia sesión</a></li>
+                <li class="li-a"><a class="ala" href="loginForm.php">Inicia sesión</a></li>
+                  
+                <li class="li-a"><a class="ala" href="registro.php">Registrate</a></li>
                   
                   <?php } else { ?>
                   
@@ -95,22 +99,17 @@ $nomuser=$user.$role;
                   
                   <?php } ?>
 
-              <li class="li-a"><a class="ala" href="registro.php">Registrate</a></li>
-                  
-                  <?php
-    
-                    if ($role=="(admin)") {
-                        
-                        ?>
-            
-            
-                  
-              </ul>
+             
+                </ul>
                 
-                <?php } ?>
+                <br>
+                <br>
+                <br>
+                <br>
+
                 
-                <li class="li-a"><a class="ala"><?php echo ($nomuser);?></a></li>
-       
+                <li class="li-a"><a class="ala">Tu rol de usuario es: <?php echo ($nomuser);?></a></li>
+                <li class="li-a"><a class="ala">Tu nombre de usuario es: <?php echo ($nomuser2);?></a></li>
   
             </nav>
     
