@@ -63,7 +63,16 @@
         
         <br>
         <br>
+        <p>
+        Bandai es una empresa japonesa dedicada a la creación de juguetes y figuras de acción, en muchos de los casos posee los derechos exclusivos para la promoción de mercadería basada de series animadas; es uno de los principales auspiciantes que han ayudado a poner en marcha diferentes series de anime
         
+        </p>
+        <br>
+        <br>
+        <p>
+        
+        
+        </p>
             <footer>
 		      <p><strong>DragonBallWorld, página creada por Sergi Chismol Marí y Jorge Sendra Gómez.</strong></p>
             </footer>
