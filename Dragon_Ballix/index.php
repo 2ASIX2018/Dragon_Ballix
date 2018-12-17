@@ -75,6 +75,16 @@
         </p>
         <br>
         <br>
+        <img src="img/Toei_Animation.svg.png" height="250px" weight="250px"/>
+        <p>
+        Toei Animation:
+        Toei Animation Company, Limited es un estudio de animación japonés propiedad de la empresa Toei Company, Limited. Ha creado varias series de televisión y películas y ha adaptado cómics japoneses como series animadas, muchas populares en todo el mundo. Toei es accionista de la cadena japonesa de televisión por satélite anime Animax junto con otros estudios de animación y productoras, como Sunrise, TMS Entertainment y Nihon Ad Systems Inc. La empresa tiene su sede en Ohizumi Studio en Nerima, Tokio. 
+        
+        
+        </p>
+        
+        
+        <br>
         <p>
         
         

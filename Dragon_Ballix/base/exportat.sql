@@ -101,7 +101,12 @@ CREATE TABLE IF NOT EXISTS `Base_projecte`.`peliculas` (
   PRIMARY KEY (`idpeliculas`))
 ENGINE = InnoDB
 DEFAULT CHARSET=utf8;
-
+-- INSERT INTO peliculas(idpeliculas,titulo,descripción)
+-- ('pelicula1','Los guerreros de plata',''),
+-- ('pelicula2','Estalla el duelo',''),
+-- ('pelicula3','La super batalla','')
+-- ('pelicula4','La batalla de los dioses')
+-- ('pelicula5','Dragon ball super: Broly')
 -- -----------------------------------------------------
 -- Table `Base_projecte`.`series`
 -- -----------------------------------------------------
@@ -125,16 +130,16 @@ select nom, descripcio from series where idseries = 'serie1';
 
 select nom, descripcio from series order by idseries desc ;
 
-CREATE TABLE IF NOT EXISTS `imagenphp` (
-`id` smallint(6) NOT NULL,
-`ancho` smallint(6) NOT NULL,
-`altura` smallint(6) NOT NULL,
-`tipo` char(15) NOT NULL,
-`imagen` mediumblob NOT NULL,
-PRIMARY KEY (`id`)
-) 
-ENGINE = InnoDB
-DEFAULT CHARSET=utf8;
+-- CREATE TABLE IF NOT EXISTS `imagenphp` (
+-- `id` smallint(6) NOT NULL,
+-- `ancho` smallint(6) NOT NULL,
+-- `altura` smallint(6) NOT NULL,
+-- `tipo` char(15) NOT NULL,
+-- `imagen` mediumblob NOT NULL,
+-- PRIMARY KEY (`id`)
+-- ) 
+-- ENGINE = InnoDB
+-- DEFAULT CHARSET=utf8;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
