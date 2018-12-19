@@ -3,14 +3,14 @@
 session_start();
 
 $user="Anonimo";
-$role="";
+$role="Anonimo";
 
 
 if (isset($_SESSION['username'])) {
     
     $user=$_SESSION['username'];
     
-    if (isset($_SESSION['role']) && $_SESSION['role']=="admin") $role="Admin";
+    if (isset($_SESSION['role']) && $_SESSION['role']=="admin") $role="admin";
     
     else $role="User";
 

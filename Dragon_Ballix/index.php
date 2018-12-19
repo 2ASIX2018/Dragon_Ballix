@@ -75,6 +75,10 @@
         </p>
         <br>
         <br>
+        
+        <p class="stroke1">T</p><p class="stroke2">o</p><p class="stroke1">ei</p><p class="stroke3">Animati</p><p class="stroke2">o</p><p class="stroke3">n</p>
+        <br>
+        
         <img src="img/Toei_Animation.svg.png" height="250px" weight="250px"/>
         <p>
         Toei Animation:
