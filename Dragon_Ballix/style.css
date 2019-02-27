@@ -1,0 +1,118 @@
+/*
+Theme Name: TemaKenny
+Theme URI: https://github.com
+Author: Kenny
+Description: Wordpress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: TemaKenny
+*/
+
+
+#primary-sidebar{
+  background-color: orange;
+  float: right;
+  height:100%;
+
+}
+
+#userInfoContainer{
+background-color: orange;
+    height: 100%;
+}
+
+
+#aa{
+    background-color: orange;
+    position: fixed;
+    height: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer{
+    position: static;
+    height: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+#userInfoContainer{
+    height: 100%;
+}
+
+#userInfo{
+    color: #5165;
+}
+body{
+    background-image: url("screenshot2.png");
+}
+div{
+    background-color: rgba(255, 255, 255, 0.514);
+}
+h2{
+    background-color: white;
+}
+
+p{
+background-color: rgba(255, 255, 255, 0.514);
+
+}
+
+h1{
+background-color: rgba(255, 255, 255, 0.514);
+}
+
+/* MENU */
+
+div.nav-menu{
+  background: white;
+  float:right;
+}
+
+div.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float:right;
+}
+div.nav-menu li {
+  position: relative;
+  line-height: 1.7;
+  float: left;
+  padding-right: 10px;
+}
+div.nav-menu a {
+
+background-color: rgba(255, 255, 255, 0.514);
+  color: red;
+  text-decoration: none;
+  display: block;
+}
+div.nav-menu > ul > li {
+  float: left;
+}
+div.nav-menu > ul > li > a{
+  padding: 10px 10px;
+}
+div.nav-menu > ul > li:hover > a{
+
+background-color: rgba(255, 255, 255, 0.514);
+
+}
+
+a:link {
+  color: green;
+background-color: rgba(255, 255, 255, 0.514);
+}
+
+a:visited {
+  color: red;
+background-color: rgba(255, 255, 255, 0.514);
+}
+a:active {
+  color: blue;
+background-color: rgba(255, 255, 255, 0.514);
+}
+
